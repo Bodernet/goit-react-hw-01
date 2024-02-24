@@ -1,0 +1,27 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.name {
+  font-size: 22px;
+  font-weight: 450;
+  color: black;
+  margin: 0;
+}
+.status {
+  font-size: 20px;
+}
+
+.statusonline {
+  color: green;
+  margin: 0;
+}
+.statusoffline {
+  color: red;
+  margin: 0;
+}

@@ -1,0 +1,63 @@
+.profcard {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 500px;
+  height: auto;
+}
+
+.profdata {
+  height: auto;
+  padding-top: 10px;
+}
+.profimg {
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.profusername {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.proftag,
+.proflocation {
+  font-size: 35px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.proflist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-top: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.profitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 calc(100% / 3);
+  padding: 10px 0;
+}
+
+.profitem:not(:last-child) {
+  border-right: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.proftitle {
+  font-size: 25px;
+  font-weight: 400;
+  color: rgba(0, 0, 0);
+}
+.profdigit {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgba(0, 0, 0);
+}

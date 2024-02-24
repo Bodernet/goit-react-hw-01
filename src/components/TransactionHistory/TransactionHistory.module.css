@@ -1,0 +1,32 @@
+.transactionTable {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tableItem {
+  background-color: white;
+}
+
+.row,
+.colum {
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #000;
+}
+
+.row {
+  background-color: gray;
+  color: #fff;
+  font-weight: 600;
+}
+
+.colum {
+  text-transform: capitalize;
+}
+
+.transactionTable tr:nth-child(even) {
+  background-color: #ccc;
+}
