@@ -11,7 +11,7 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
           width="250"
         />
         <p className={css.profusername}>{username}</p>
-        <p className={css.proftag}>{tag}</p>
+        <p className={css.proftag}>@{tag}</p>
         <p className={css.proflocation}>{location}</p>
       </div>
 
